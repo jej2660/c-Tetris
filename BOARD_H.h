@@ -7,7 +7,6 @@ public:
 };
 class Frame{
 public:
-   int Shape[MAX_X][MAX_Y];
-   void init(Frame *f);
-}
+   int shape[MAX_X][MAX_Y] = {0, };
+};
 #endif
